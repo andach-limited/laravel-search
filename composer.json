@@ -1,0 +1,20 @@
+{
+    "name": "andach/laravel-search",
+    "description": "A simple search package for Laravel, based off the excellent spatie/laravel-searchable, to display results.",
+    "type": "library",
+    "require": {
+        "spatie/laravel-searchable": "^1.11"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Andach\\LaravelSearch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andreas Christodolou",
+            "email": "andreas@andach.co.uk"
+        }
+    ]
+}
